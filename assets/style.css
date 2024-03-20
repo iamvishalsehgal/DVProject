@@ -1,0 +1,30 @@
+/* style.css */
+.header {
+    background-color: #fdf3e7;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 120px;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+/* Additional styling to ensure the title stays in the middle */
+.header-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 0.5;
+    margin-bottom: 0;
+}
